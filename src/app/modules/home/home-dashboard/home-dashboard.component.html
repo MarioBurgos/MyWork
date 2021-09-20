@@ -1,4 +1,40 @@
 <div class="custom-container col l6 s12">
-    <h1>{{data.title}}</h1>
-    <img [src]="data.img" height="200" alt="logo" [@slideInAnimation]>
+    <div class="row center">
+        <div class="col l2"></div>
+        <div class="col l8">
+            <img class="custom-img-responsive hoverable" [src]="data.img" height="200" alt="logo" [@slideInAnimation]>
+        </div>
+        <div class="col l2"></div>
+    </div>
+    <div class="row">
+        <div class="col l1">
+        </div>
+        <div class="col l10 s12">
+            <p>Hi everyone! It's me, Mario.</p>
+            <hr>
+            <p>Welcome to my portfolio.</p>
+            <p>If you look around you will see a simple and minimalistic (but well structured by components and modules) Single Page App. I did choose Angular because since I first meet the framework, I strongly believed that it will be my future tool to
+                develop my frontend projects. It was easy to get along in the beggining, and it gives two benefits, its components are reusable and scalable.</p>
+            <p>I know this website <a href="https://i.kym-cdn.com/entries/icons/original/000/028/021/work.jpg" target="_blank">isn't much, but it is honest work</a></p>
+        </div>
+        <div class="col l1">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col l1"></div>
+        <div class="col l10 s12">
+            <p>Jokes apart, I invite you to visit all the sections of my portfolio, specially <b>About</b> section, where you will find some information if you want to know me more; and <b>Work</b>, where you will see the mini-projects I have developed in
+                my carreer.
+            </p>
+        </div>
+        <div class="col l1"></div>
+    </div>
+    <div class="row">
+        <div class="col l1"></div>
+        <div class="col l10 s12">
+            <p>Thanks for your visit and please, let me know if you have any <a [routerLink]="['contact']" target="_blank">feedback</a>.
+            </p>
+        </div>
+        <div class="col l1"></div>
+    </div>
 </div>
