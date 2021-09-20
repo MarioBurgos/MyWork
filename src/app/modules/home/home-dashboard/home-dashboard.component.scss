@@ -12,12 +12,18 @@
 }
 
 .custom-img-responsive {
-    width: 75%;
+    width: 65%;
     height: auto;
+    border-radius: 35px;
     transform: rotate(3deg);
-    border-radius: 25px;
 }
 
 p {
     text-align: justify;
+    font-size: 1.5rem;
+}
+
+a {
+    color: yellow;
+    text-decoration: solid;
 }
