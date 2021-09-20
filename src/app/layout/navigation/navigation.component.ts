@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NAVIGATION_DATA } from 'src/app/data/constants/layout/navigation.const';
 
 @Component({
   selector: 'app-navigation',
@@ -6,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navigation.component.scss']
 })
 export class NavigationComponent implements OnInit {
+
+  public data = {
+    logo: NAVIGATION_DATA.LOGO,
+
+  }
 
   constructor() { }
 

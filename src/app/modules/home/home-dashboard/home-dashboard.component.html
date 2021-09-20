@@ -1,4 +1,32 @@
 <div class="custom-container col l6 s12">
-    <h1>{{data.title}}</h1>
-    <img [src]="data.img" height="200" alt="logo" [@slideInAnimation]>
+    <div class="row center">
+        <div class="col l3"></div>
+        <div class="col l6 s12">
+            <img class="custom-img-responsive hoverable" [src]="data.img" alt="logo" [@slideInAnimation]>
+        </div>
+        <div class="col l3"></div>
+    </div>
+
+    <div class="row center">
+        <div class="col l2"></div>
+        <div class="col l8 s12">
+            <p>Hi, it's me, Mario!</p>
+            <p><br> Welcome to my portfolio, it is nice to see you here. </p>
+            <p><br> If you look arond, you will see a simple minimalistic design but nicely structured by modules. I know <a href="https://i.kym-cdn.com/entries/icons/original/000/028/021/work.jpg"> it isn't much but it is honest work.</a> Jokes appart,
+                I did choose <b>Angular</b> to make this website work. Since I first met this framework I had a strong feeling that it would be my future. </p>
+            <p><br> Anyways, I invite you to visit the page and leave feedback.</p>
+            <p><br> Thanks for your visit!</p>
+        </div>
+        <div class="col l2"></div>
+    </div>
+
+    <div class="row center">
+        <div class="col s6 left">
+            <button>Know more about me</button>
+        </div>
+        <div class="col s6 right">
+            <button>See my work</button>
+        </div>
+    </div>
+
 </div>
