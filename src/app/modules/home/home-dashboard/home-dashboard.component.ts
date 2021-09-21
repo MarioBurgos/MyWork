@@ -15,7 +15,6 @@ export class HomeDashboardComponent implements OnInit {
   slideAnimation= false;
 
   public data= {
-    bg : HOME_DATA.BACKGROUND,
     title : HOME_DATA.TITLE,
     img : HOME_DATA.IMG_MY_NAME_IS
   }
