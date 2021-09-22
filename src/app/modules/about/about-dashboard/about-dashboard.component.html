@@ -1,3 +1,21 @@
 <div class="custom-container">
-    <h1>Hello About</h1>
+    <div class="container">
+        <h1>{{data.title}}</h1>
+        <h2>{{data.subtitle}}</h2>
+        <hr>
+    </div>
+
+    <div class="container">
+        <br><br>
+        <p>{{data.content1}}</p>
+        <p>{{data.content2}}</p>
+        <p>{{data.content3}}</p>
+        <p>{{data.content4}}</p>
+    </div>
+
+    <div class="container">
+        <div class="row center">
+            <a [routerLink]="['/about/cv']">See my C.V.</a>
+        </div>
+    </div>
 </div>
