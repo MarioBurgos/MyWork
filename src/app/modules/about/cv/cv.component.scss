@@ -1,3 +1,13 @@
+@media (min-width: 768px) {
+    .custom-container {
+        padding: 0;
+    }
+    img {
+        width: 20%;
+        height: 50%;
+    }
+}
+
 .custom-container {
     color: #ffffff;
     width: 100%;
@@ -18,7 +28,7 @@
 }
 
 img {
-    width: 75%;
+    width: 100%;
     height: auto;
 }
 
@@ -32,11 +42,12 @@ h1 {
 
 .card {
     text-align: justify;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 p {
     text-align: justify;
+    padding-right: .5rem;
 }
 
 
@@ -48,7 +59,6 @@ p {
     --bar-thickness: 20px;
     --bar-rounded: 3px;
     --bar-spacing: 10px;
-    margin-left: 2.5rem;
 }
 
 .chart-wrap .grid {
